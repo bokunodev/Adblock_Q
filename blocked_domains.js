@@ -11,4 +11,7 @@ var blocked_domains = [
 	"*://*.tsyndicate.com/*",
 	"*://*.adtng.com/*",
 	"*://*.trafficjunky.net/*",
+	"*://*.amazon-adsystem.com/*",
+	"*://*.mavq.net/*",
+	"*://*adnxs.com/*",
 ];
