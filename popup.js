@@ -1,4 +1,4 @@
-window.onload = function () {
+window.onload = function (){
 	function updateLabel() {
 		var enabled = chrome.extension.getBackgroundPage().enabled;
 		document.getElementById('toggle_button').value = enabled ? "Disable" : "Enable";
