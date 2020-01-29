@@ -1,6 +1,6 @@
 {
   "name": "AdBlock Q",
-  "version": "0.4",
+  "version": "0.6",
   "description": "Removes annoying ads.",
   "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"],
   "background": {
