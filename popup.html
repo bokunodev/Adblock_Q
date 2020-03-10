@@ -1,9 +1,27 @@
 <html>
 <head>
+    <meta charset="UTF-8">
     <script src="popup.js"></script>
+    <style>
+    body {
+        text-align:center;
+        font-family:monospace;
+    }
+    hr {
+        width:100%;height:0%;
+        margin:.5em 0em .5em 0em;
+        border:2px solid grey;
+    }
+    h3 {
+        margin:auto;padding:0px;
+    }
+    </style>
 </head>
-<body style="text-align:center;font-family:monospace;">
-    <h3>Change State</h3>
-    <input type="button" id="toggle_button" value="Disable" />
+<body>
+    <label for="blockads"><h3>Block Ads</h3></label>
+    <input type="button" name="blockads" id="blockads" value="Disable" />
+    <hr>
+    <label for="blockimg"><h3>Block Image</h3></label>
+    <input type="button" name="blockimg" id="blockimg" value="Disable" />
 </body>
 </html>
